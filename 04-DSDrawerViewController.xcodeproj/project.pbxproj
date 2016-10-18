@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31803D431DAF414D0078B398 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31803D421DAF414D0078B398 /* AppDelegate.swift */; };
+		31803D4A1DAF414D0078B398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31803D491DAF414D0078B398 /* Assets.xcassets */; };
+		31803D4D1DAF414D0078B398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31803D4B1DAF414D0078B398 /* LaunchScreen.storyboard */; };
+		31803D581DAF414D0078B398 /* _4_DSDrawerViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31803D571DAF414D0078B398 /* _4_DSDrawerViewControllerTests.swift */; };
+		31803D631DAF414D0078B398 /* _4_DSDrawerViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31803D621DAF414D0078B398 /* _4_DSDrawerViewControllerUITests.swift */; };
+		31803D711DAF41800078B398 /* ManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31803D701DAF41800078B398 /* ManagerViewController.swift */; };
+		31803D731DAF42140078B398 /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31803D721DAF42140078B398 /* CenterViewController.swift */; };
+		31803D751DAF42530078B398 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31803D741DAF42530078B398 /* LeftViewController.swift */; };
+		31F107371DB06FD2005AAC99 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F107361DB06FD2005AAC99 /* DetailViewController.swift */; };
+		31F107391DB085D3005AAC99 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F107381DB085D3005AAC99 /* BaseViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31803D541DAF414D0078B398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31803D371DAF414D0078B398 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31803D3E1DAF414D0078B398;
+			remoteInfo = "04-DSDrawerViewController";
+		};
+		31803D5F1DAF414D0078B398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31803D371DAF414D0078B398 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31803D3E1DAF414D0078B398;
+			remoteInfo = "04-DSDrawerViewController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31803D3F1DAF414D0078B398 /* 04-DSDrawerViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04-DSDrawerViewController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31803D421DAF414D0078B398 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31803D491DAF414D0078B398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31803D4C1DAF414D0078B398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31803D4E1DAF414D0078B398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31803D531DAF414D0078B398 /* 04-DSDrawerViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04-DSDrawerViewControllerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31803D571DAF414D0078B398 /* _4_DSDrawerViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _4_DSDrawerViewControllerTests.swift; sourceTree = "<group>"; };
+		31803D591DAF414D0078B398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31803D5E1DAF414D0078B398 /* 04-DSDrawerViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04-DSDrawerViewControllerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31803D621DAF414D0078B398 /* _4_DSDrawerViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _4_DSDrawerViewControllerUITests.swift; sourceTree = "<group>"; };
+		31803D641DAF414D0078B398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31803D701DAF41800078B398 /* ManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerViewController.swift; sourceTree = "<group>"; };
+		31803D721DAF42140078B398 /* CenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterViewController.swift; sourceTree = "<group>"; };
+		31803D741DAF42530078B398 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		31F107361DB06FD2005AAC99 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		31F107381DB085D3005AAC99 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31803D3C1DAF414D0078B398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31803D501DAF414D0078B398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31803D5B1DAF414D0078B398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31803D361DAF414D0078B398 = {
+			isa = PBXGroup;
+			children = (
+				31803D411DAF414D0078B398 /* 04-DSDrawerViewController */,
+				31803D561DAF414D0078B398 /* 04-DSDrawerViewControllerTests */,
+				31803D611DAF414D0078B398 /* 04-DSDrawerViewControllerUITests */,
+				31803D401DAF414D0078B398 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31803D401DAF414D0078B398 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31803D3F1DAF414D0078B398 /* 04-DSDrawerViewController.app */,
+				31803D531DAF414D0078B398 /* 04-DSDrawerViewControllerTests.xctest */,
+				31803D5E1DAF414D0078B398 /* 04-DSDrawerViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31803D411DAF414D0078B398 /* 04-DSDrawerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				31803D421DAF414D0078B398 /* AppDelegate.swift */,
+				31803D701DAF41800078B398 /* ManagerViewController.swift */,
+				31F107381DB085D3005AAC99 /* BaseViewController.swift */,
+				31803D721DAF42140078B398 /* CenterViewController.swift */,
+				31803D741DAF42530078B398 /* LeftViewController.swift */,
+				31F107361DB06FD2005AAC99 /* DetailViewController.swift */,
+				31803D491DAF414D0078B398 /* Assets.xcassets */,
+				31803D4B1DAF414D0078B398 /* LaunchScreen.storyboard */,
+				31803D4E1DAF414D0078B398 /* Info.plist */,
+			);
+			path = "04-DSDrawerViewController";
+			sourceTree = "<group>";
+		};
+		31803D561DAF414D0078B398 /* 04-DSDrawerViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				31803D571DAF414D0078B398 /* _4_DSDrawerViewControllerTests.swift */,
+				31803D591DAF414D0078B398 /* Info.plist */,
+			);
+			path = "04-DSDrawerViewControllerTests";
+			sourceTree = "<group>";
+		};
+		31803D611DAF414D0078B398 /* 04-DSDrawerViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31803D621DAF414D0078B398 /* _4_DSDrawerViewControllerUITests.swift */,
+				31803D641DAF414D0078B398 /* Info.plist */,
+			);
+			path = "04-DSDrawerViewControllerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31803D3E1DAF414D0078B398 /* 04-DSDrawerViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31803D671DAF414D0078B398 /* Build configuration list for PBXNativeTarget "04-DSDrawerViewController" */;
+			buildPhases = (
+				31803D3B1DAF414D0078B398 /* Sources */,
+				31803D3C1DAF414D0078B398 /* Frameworks */,
+				31803D3D1DAF414D0078B398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-DSDrawerViewController";
+			productName = "04-DSDrawerViewController";
+			productReference = 31803D3F1DAF414D0078B398 /* 04-DSDrawerViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31803D521DAF414D0078B398 /* 04-DSDrawerViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31803D6A1DAF414D0078B398 /* Build configuration list for PBXNativeTarget "04-DSDrawerViewControllerTests" */;
+			buildPhases = (
+				31803D4F1DAF414D0078B398 /* Sources */,
+				31803D501DAF414D0078B398 /* Frameworks */,
+				31803D511DAF414D0078B398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31803D551DAF414D0078B398 /* PBXTargetDependency */,
+			);
+			name = "04-DSDrawerViewControllerTests";
+			productName = "04-DSDrawerViewControllerTests";
+			productReference = 31803D531DAF414D0078B398 /* 04-DSDrawerViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31803D5D1DAF414D0078B398 /* 04-DSDrawerViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31803D6D1DAF414D0078B398 /* Build configuration list for PBXNativeTarget "04-DSDrawerViewControllerUITests" */;
+			buildPhases = (
+				31803D5A1DAF414D0078B398 /* Sources */,
+				31803D5B1DAF414D0078B398 /* Frameworks */,
+				31803D5C1DAF414D0078B398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31803D601DAF414D0078B398 /* PBXTargetDependency */,
+			);
+			name = "04-DSDrawerViewControllerUITests";
+			productName = "04-DSDrawerViewControllerUITests";
+			productReference = 31803D5E1DAF414D0078B398 /* 04-DSDrawerViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31803D371DAF414D0078B398 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "左得胜";
+				TargetAttributes = {
+					31803D3E1DAF414D0078B398 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6CT8FYEK5B;
+						ProvisioningStyle = Automatic;
+					};
+					31803D521DAF414D0078B398 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J8SAL3RUG6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31803D3E1DAF414D0078B398;
+					};
+					31803D5D1DAF414D0078B398 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J8SAL3RUG6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31803D3E1DAF414D0078B398;
+					};
+				};
+			};
+			buildConfigurationList = 31803D3A1DAF414D0078B398 /* Build configuration list for PBXProject "04-DSDrawerViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31803D361DAF414D0078B398;
+			productRefGroup = 31803D401DAF414D0078B398 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31803D3E1DAF414D0078B398 /* 04-DSDrawerViewController */,
+				31803D521DAF414D0078B398 /* 04-DSDrawerViewControllerTests */,
+				31803D5D1DAF414D0078B398 /* 04-DSDrawerViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31803D3D1DAF414D0078B398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31803D4D1DAF414D0078B398 /* LaunchScreen.storyboard in Resources */,
+				31803D4A1DAF414D0078B398 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31803D511DAF414D0078B398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31803D5C1DAF414D0078B398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31803D3B1DAF414D0078B398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31803D731DAF42140078B398 /* CenterViewController.swift in Sources */,
+				31803D751DAF42530078B398 /* LeftViewController.swift in Sources */,
+				31803D711DAF41800078B398 /* ManagerViewController.swift in Sources */,
+				31F107371DB06FD2005AAC99 /* DetailViewController.swift in Sources */,
+				31F107391DB085D3005AAC99 /* BaseViewController.swift in Sources */,
+				31803D431DAF414D0078B398 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31803D4F1DAF414D0078B398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31803D581DAF414D0078B398 /* _4_DSDrawerViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31803D5A1DAF414D0078B398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31803D631DAF414D0078B398 /* _4_DSDrawerViewControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31803D551DAF414D0078B398 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31803D3E1DAF414D0078B398 /* 04-DSDrawerViewController */;
+			targetProxy = 31803D541DAF414D0078B398 /* PBXContainerItemProxy */;
+		};
+		31803D601DAF414D0078B398 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31803D3E1DAF414D0078B398 /* 04-DSDrawerViewController */;
+			targetProxy = 31803D5F1DAF414D0078B398 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31803D4B1DAF414D0078B398 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31803D4C1DAF414D0078B398 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31803D651DAF414D0078B398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31803D661DAF414D0078B398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31803D681DAF414D0078B398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6CT8FYEK5B;
+				INFOPLIST_FILE = "04-DSDrawerViewController/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qtds810.-4-DSDrawerViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		31803D691DAF414D0078B398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6CT8FYEK5B;
+				INFOPLIST_FILE = "04-DSDrawerViewController/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qtds810.-4-DSDrawerViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		31803D6B1DAF414D0078B398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J8SAL3RUG6;
+				INFOPLIST_FILE = "04-DSDrawerViewControllerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qtds810.-4-DSDrawerViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04-DSDrawerViewController.app/04-DSDrawerViewController";
+			};
+			name = Debug;
+		};
+		31803D6C1DAF414D0078B398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J8SAL3RUG6;
+				INFOPLIST_FILE = "04-DSDrawerViewControllerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qtds810.-4-DSDrawerViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04-DSDrawerViewController.app/04-DSDrawerViewController";
+			};
+			name = Release;
+		};
+		31803D6E1DAF414D0078B398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J8SAL3RUG6;
+				INFOPLIST_FILE = "04-DSDrawerViewControllerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qtds810.-4-DSDrawerViewControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "04-DSDrawerViewController";
+			};
+			name = Debug;
+		};
+		31803D6F1DAF414D0078B398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J8SAL3RUG6;
+				INFOPLIST_FILE = "04-DSDrawerViewControllerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qtds810.-4-DSDrawerViewControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "04-DSDrawerViewController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31803D3A1DAF414D0078B398 /* Build configuration list for PBXProject "04-DSDrawerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31803D651DAF414D0078B398 /* Debug */,
+				31803D661DAF414D0078B398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31803D671DAF414D0078B398 /* Build configuration list for PBXNativeTarget "04-DSDrawerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31803D681DAF414D0078B398 /* Debug */,
+				31803D691DAF414D0078B398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31803D6A1DAF414D0078B398 /* Build configuration list for PBXNativeTarget "04-DSDrawerViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31803D6B1DAF414D0078B398 /* Debug */,
+				31803D6C1DAF414D0078B398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31803D6D1DAF414D0078B398 /* Build configuration list for PBXNativeTarget "04-DSDrawerViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31803D6E1DAF414D0078B398 /* Debug */,
+				31803D6F1DAF414D0078B398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31803D371DAF414D0078B398 /* Project object */;
+}
